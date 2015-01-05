@@ -5,7 +5,7 @@
 # Copyright 2014, Escape Studios
 #
 
-default['ffmpeg']['install_method'] = :source
+default['ffmpeg']['install_method'] = :package
 default['ffmpeg']['prefix'] = '/usr/local'
 default['ffmpeg']['git_repository'] = 'git://git.videolan.org/ffmpeg.git'
 default['ffmpeg']['compile_flags'] = [
